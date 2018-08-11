@@ -1,0 +1,16 @@
+{
+  "name": "my-immortal-bot",
+  "version": "1.0.9",
+  "description": "2 goffik",
+  "main": "my-immortal-bot.js",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.30.0",
+    "telebot": "^1.2.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Lana Chiad",
+  "license": "ISC"
+}
