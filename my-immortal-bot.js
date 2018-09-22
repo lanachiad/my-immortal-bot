@@ -5,6 +5,7 @@ const token = '694479182:AAFPAghxpDff4JlH6nzsR37JLY5mghdofXU';
 var http = require('http');
 setInterval(function() {
   http.get('http://my-immortal-telegram-bot.herokuapp.com');
+  console.log('im refreshing, prepz');
 }, 300000); // every 5 minutes (300000)
 
 const bot = new TelegramBot(token, { polling: true });
