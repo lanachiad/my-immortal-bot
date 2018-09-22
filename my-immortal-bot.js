@@ -1,4 +1,4 @@
-require('heroku-self-ping')('https://my-immortal-telegram-bot.herokuapp.com/');
+// require('heroku-self-ping')('https://my-immortal-telegram-bot.herokuapp.com/');
 const TelegramBot = require('node-telegram-bot-api');
 const token = '694479182:AAFPAghxpDff4JlH6nzsR37JLY5mghdofXU';
 
