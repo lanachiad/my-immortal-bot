@@ -5,6 +5,7 @@
   "main": "my-immortal-bot.js",
   "dependencies": {
     "heroku-self-ping": "^1.1.5",
+    "http": "0.0.0",
     "node-telegram-bot-api": "^0.30.0",
     "telebot": "^1.2.6"
   },
