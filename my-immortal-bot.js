@@ -1,5 +1,6 @@
+require('dotenv').config();
 const TelegramBot = require('node-telegram-bot-api');
-const token = '694479182:AAFPAghxpDff4JlH6nzsR37JLY5mghdofXU';
+const token = process.env.TOKEN;
 
 const http = require('http');
 const date = new Date();
@@ -15,7 +16,7 @@ bot.on('message', msg => {
     const chatId = msg.chat.id;
     const miChapters = require('./chapters.js');
     const randNum = Math.floor(Math.random() * 36) + 1;
-    const response = miChapters[randNum];
+    const response = miChapters.chapters[randNum];
 
     bot.sendMessage(chatId, response);
   }
