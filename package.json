@@ -4,7 +4,7 @@
   "description": "2 goffik",
   "main": "my-immortal-bot.js",
   "dependencies": {
-    "dotenv": "^6.0.0",
+    "dotenv": "^6.2.0",
     "heroku-self-ping": "^1.1.5",
     "http": "0.0.0",
     "node-telegram-bot-api": "^0.30.0",
